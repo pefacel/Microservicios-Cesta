@@ -14,15 +14,17 @@ public class ItemServiceFeign implements IItemService {
 
 	@Autowired
 	private ProductoClienteRest clienteFeign;
-	
+
 	@Override
 	public List<Item> finadAll() {
-		return clienteFeign.listar().stream().map(p-> new Item(p,1)).collect(Collectors.toList());
+		return clienteFeign.listar().stream().map(p -> new Item(p, 1)).collect(Collectors.toList());
 	}
 
 	@Override
 	public Item findById(Long id, Integer cantidad) {
 		return new Item(clienteFeign.ver(id), cantidad);
 	}
+
+
 
 }

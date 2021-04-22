@@ -7,6 +7,8 @@ import cl.otelio.microservicio.app.items.models.Item;
 public interface IItemService {
 
 	public List<Item> finadAll();
+	
 	public Item findById(Long id, Integer cantidad);
 	
+
 }

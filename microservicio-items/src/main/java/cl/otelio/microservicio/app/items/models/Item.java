@@ -1,5 +1,6 @@
 package cl.otelio.microservicio.app.items.models;
 
+import cl.otelio.microservicio.commons.models.entity.Producto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

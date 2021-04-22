@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 import cl.otelio.microservicio.app.items.models.Item;
-import cl.otelio.microservicio.app.items.models.Producto;
 import cl.otelio.microservicio.app.items.service.ItemServiceFeign;
+import cl.otelio.microservicio.commons.models.entity.Producto;
 
 @RestController
 @RefreshScope

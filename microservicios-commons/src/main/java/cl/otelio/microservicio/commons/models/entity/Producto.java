@@ -1,4 +1,4 @@
-package cl.otelio.microservicio.app.productos.models.entity;
+package cl.otelio.microservicio.commons.models.entity;
 
 import java.io.Serializable;
 import java.util.Date;
